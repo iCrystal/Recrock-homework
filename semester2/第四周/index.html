@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>事件练习</title>
+	<style type="text/css">
+	#box{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -110px 0 0 -110px;
+		width: 208px;
+		height: 208px;
+	}
+	.box1{
+		width: 50px;
+		height: 50px;
+		border:1px solid #ccc;
+		float: left;
+		background-color: #13a241;
+	}
+	</style>
+	<script type="text/javascript">
+		window.onload = function () {
+			function randomColor() {
+				var colorValue = '#';
+				var colorArray = ['1','2','3','4','5','6','7','8','9','0','A','B','C','D','E','F'];
+				for (var i = 0; i < 6 ; i++) {
+					colorValue += colorArray[Math.round(15*Math.random())];
+				}
+				return colorValue;
+			}
+			var divs = document.querySelectorAll('div');
+			var len = divs.length;
+			for (var j = 0; j < len; j++) {
+				divs[j].addEventListener('click', function() {
+					for(var k = 0; k < len;k++) {
+						divs[k].style.backgroundColor=randomColor();
+					}
+				});
+			}
+		};
+	</script>
+</head>
+<body>
+	<section id="box">
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+	</section>
+</body>
+</html>

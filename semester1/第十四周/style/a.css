@@ -1,0 +1,280 @@
+	body{
+		background:#282828;
+	}
+	#content{
+		width: 1280px;
+		margin: 0 auto;
+		text-align: center;
+		background: #ffffff;
+		font-family: Microsoft YaHei;
+	}
+	#header{
+		width: 1280px;
+		height: 534px;
+		/*background: rgba(226,151,145,0.7);*/
+		background: rgb(226,151,145);
+		opacity: 0.7;
+		filter:alpha(opacity=10);
+		background: url("../img/header.jpg");
+	}
+	#nav{
+		position: relative;
+		padding-top: 62px;
+		}
+	#head_text{
+		color: white;
+		font-size: 15px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	#head_text:hover{
+		color: #1abc9c;
+	}
+	.logo{
+		padding-left: 90px;
+	}
+	.start{
+		margin-left: 550px;
+		text-decoration: underline;
+	}
+	.about,.work,.contact{
+		margin-left: 30px;
+	}
+	.title{
+		position: relative;
+		display: inline-block;
+		color: white;
+		font-size: 45px;
+	}
+	.design{
+		text-align: center;
+		color: white;
+		font-size: 20px;
+	}
+	#title{
+		color: white;
+		font-size: 44px;
+	}
+	#design{
+		color: white;
+		font-size: 20px;
+	}
+	#button{
+		margin-left: 522px;
+		margin-top: 220px
+	}
+	#back{
+		position: relative;
+		width: 235px;
+		height: 62px;
+		background-color: #78d8c5;
+
+	}
+	#go_ahead a{
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 222px;
+		height: 50px;
+		color: white;
+		font-size: 18px;
+		line-height: 50px;
+		background: #1abc9c;
+		text-decoration: none;
+	}
+	#lechner{
+		margin-top: 164px;
+		color: #1abc9c;
+		font-size: 28px;
+	}
+	#pra1{
+		margin-left: 232px;
+		font-size: 16px;
+		line-height: 32px;
+		width: 817px;
+		height: 141px;
+		color: #a5b3b3;
+	}
+	#sketch,#after,#final{
+		margin-top: 80px;
+		margin-left: 115px;
+		margin-bottom: 80px;
+		width: 270px;
+		height: 345px;
+		float: left;
+	}
+	.sketching,.afterwards,.finalize{
+		font-size: 20px;
+		font-weight: bold;
+		color: #1abc9c;
+	}
+	#par2,#par3,#par4{
+		font-size: 15px;
+		color: #a5b3b3;
+	}
+	#portfolio{
+		position: relative;
+		margin-left: 130px;
+		margin-top: 80px;
+		width: 1024px;
+		height: 997px;
+	}
+	#search1,#search2,#search3,#search4{
+		display: none;
+		position: absolute;
+		top: 22px;
+		right: 22px;
+		margin: auto;
+		width: 42px;
+		height: 42px;
+		background: #1abc9c;
+		vertical-align:center;
+		border: 6px solid #78d8c5;
+	}
+	#show1,#show2,#show3,#show4{
+		display: none;
+		position: absolute;
+		bottom: 0px;
+		width: 428px;
+		height: 95px;
+		background: #1abc9c;
+		border-top: 6px solid #78d8c5;
+		text-align: left;
+	}
+	.image_title{
+		display: inline-block;
+		margin-top: 10px;
+		padding-left:20px;
+		font-size: 20px;
+		color: white;
+	}
+	.description{
+		margin-top: -10px;
+		padding-left:20px;
+		font-size: 15px;
+		color: black;
+	}
+	#sea1,#sea3{
+		float: left;
+		position: relative;
+		margin-bottom: 80px;
+		background: rgb(227,130,121);
+		opacity: 0.7;
+		filter:alpha(opacity=10);
+	}
+	#sea2,#sea4{
+		float: right;
+		position: relative;
+		margin-bottom: 80px;
+		background: rgb(227,130,121);
+		opacity: 0.7;
+		filter:alpha(opacity=10);
+	}
+	#view_more{
+	
+		margin-top: 60px;
+		font-size: 20px;
+		width: 235px;
+		height: 61px;
+		line-height: 61px;
+		color: white;
+		background-color: #1abc9c;
+		position: absolute;
+		top: 780px;
+		left: 396px;
+	}
+	.arrow{
+		position: absolute;
+		top:17px;
+
+	}
+	.get{
+		margin-top: 80px;
+		color: #1abc9c;
+		font-size: 40px;
+		font-weight: bold;
+	}
+	.name,.email{
+		margin-top: 80px;
+		height: 80px;
+		width: 395px;
+		background: #e4e8e8;
+		font-size: 20px;
+		color: #cecece;
+		padding-left: 33px;
+	}
+	.name{
+		float: left;
+		margin-left: 195px;
+	}
+	.email{
+		
+		float: right;
+		margin-right: 195px;
+	}
+	.text_area{
+		float: left;
+		margin-top: 34px;
+		margin-bottom: 162px;
+		margin-left: 195px;
+		padding-left: 33px;
+		padding-top:32px;
+		width: 855px;
+		height: 266px;
+		background: #e4e8e8;
+		color: #cecece;
+		font-size: 24px;
+	}
+	#footer{
+		width: 1280px;
+		height: 256px;
+		background: #1abc9c;
+		overflow: hidden;
+		position: relative;
+	}
+	#twitter{
+		position: absolute;
+		left: 231px;
+		top: -27px;
+		width:95px;
+		height: 95px;
+		background: white;
+		border: 6px solid #78d8c5;
+
+	}
+	#dribbble{
+		position: absolute;
+		left: 592px;
+		top: -27px;
+		background: white;
+		width:95px;
+		height: 95px;
+		border: 6px solid #78d8c5;
+	}
+	#facebook{
+		position: absolute;
+		left: 949px;
+		top: -27px;
+		background: white;
+		width:95px;
+		height: 95px;
+		border: 6px solid #78d8c5;
+	}
+	#twitter img,#dribbble img,#facebook img{
+		padding-top:27px;
+	}
+	#by{
+		float: left;
+		color: white;
+		margin-left: 129px;
+		margin-top: 153px;
+	}
+	#imprint{
+		color: white;
+		float: right;
+		margin-right: 127px;
+		margin-top: 153px;
+
+	}
+
+
